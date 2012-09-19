@@ -37,9 +37,6 @@ void over_lay(const char* str, int* lay_array)
     }
 }
 int kmp(const char* str1, const char* str2)
-{
-    int index1 = 0;
-    int index2 = 0;
 
     int length1 = 0;
     int length2 = 0;
